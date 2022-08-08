@@ -33,7 +33,8 @@ public class ZooManager : MonoBehaviour
 		float spawnPosX = Random.Range(-spawnRangeX, spawnRangeX);
 		float spawnPosZ = Random.Range(-spawnRangeZ, spawnRangeZ);
 		Vector3 startPos = new Vector3(spawnPosX, AnimalY, spawnPosZ);
-		Quaternion startRot = Random.rotation;
+		//Quaternion startRot = Random.rotation;
+		Quaternion startRot = Quaternion.Euler(0, 0, 0);
 
 	    Instantiate(AnimalPrefabs[iAnimal], startPos, startRot);
 

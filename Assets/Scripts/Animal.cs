@@ -31,7 +31,6 @@ public class Animal : MonoBehaviour
     void Start()
     {
 		voice = GetComponent<AudioSource>();
-		//Invoke("RandomAction", actionInterval);
 		RandomAction();
     }
 
