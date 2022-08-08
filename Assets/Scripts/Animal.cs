@@ -42,12 +42,16 @@ public class Animal : MonoBehaviour
     }
 
 
+	// ENCAPSULATION
+	// ABSTRACTION
 	public void Walk()
 	{
 		Debug.Log("Walk");
 		currentVelocity = walkSpeed * RandomGroundDir();
 	}
 
+	// ENCAPSULATION
+	// ABSTRACTION
 	public void Run()
 	{
 		Debug.Log("Run");
